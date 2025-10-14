@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+    <main>
     <h1>ONG Refúgio Animal</h1>
     <nav>
         <a href="index.html">Página Inicial</a>
@@ -15,7 +16,7 @@
         <a href="cadastro.html">Cadastro</a>
     </nav>
     </header>
-    <section>
+    <section class="foto">
         <h2>📸Galeria de Fotos</h2>
         <div class="fotos">
             <img src="img/foto-1.jpg" alt="Zebra" width="400">
@@ -42,6 +43,22 @@
         <source src="video/video-mkv-3.mkv" type="video/mkv">
         Seu navegador não suporta vídeo HTML5.
         </video>
+        <div class="youtube">
+            <h2>🎬 Conheça nosso Youtube</h2>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/VV8Lv6vUkgM?si=7scsQoya_XFL5Ig8" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/qmhpqCFhTvI?si=52zJhewlqxRF-NqK" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/96M_aKh3umU?si=N7Mh0R7uYo59CbNR" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+        <h2>🎧Ouça nosso Podcast</h2>
+
+        <div class="audio">
+            <audio controls>
+            <source src="audio/musica.mp3" type="audio/mp3">
+            <source src="audio/musica.wav" type="audio/wav">
+            <source src="audio/musica.ogg" type="audio/ogg">
+            Seu navegador não suporta o elemento de áudio.
+            </audio>
         </div>
         </section>
         <section id="resultados">
@@ -65,6 +82,10 @@
         <li>Participação ativa em campanhas municipais de saúde animal</li>
         <li>Crescimento no número de voluntários e apoiadores</li>
         </ul>
+        <div>
+        <label for="progress">Meta Alcançada </label>
+        <progress id="progress" value="70" max="100">70%</progress>
+        </div>
         </section>
         <section id="categorizacao">
         <h2>🗂️Sistema de Categorização</h2>
@@ -99,6 +120,7 @@
                 <input type="submit" value="Cadastrar Projeto">
             </form>
         </section>
+        </main>
         <footer>
             <hr><p>Fale com a gente! </p>
         <p>Tel: (11) 98765-4321 | Atendimento de Segunda à sexta das 9h às 18h </p>
